@@ -47,29 +47,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3  # 上传构建产物
         with:
           path: .vitepress/dist # 指定上传的路径，当前是根目录，如果是docs需要加docs/的前缀
-      - name: Upload mirror artifact  # 部署镜像
-        uses: appleboy/scp-action@v0.1.0
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ secrets.SFTP_PORT }}
-          source: .vitepress/dist/
-          target: /www/wwwroot/vanillalibrary.mcfpp.top/datapack-index/
-          overwrite: true
-          strip_components: 2
-      - name: Copy index
-        uses: appleboy/scp-action@v0.1.0
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ secrets.SFTP_PORT }}
-          source: .vitepress/dist/index.html
-          target: /www/wwwroot/vanillalibrary.mcfpp.top
-          overwrite: true
-          strip_components: 2
-
   # 部署工作
   deploy:
     environment:
