@@ -3,6 +3,12 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
+
+const FontAwesomeIcon = (props: { icon: string }) => {
+  return h('i', { class: props.icon, 'aria-hidden': 'true' })
+}
 
 export default {
   extends: DefaultTheme,
@@ -12,6 +18,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('FAIcon', FontAwesomeIcon)
   }
 } satisfies Theme
