@@ -1,2 +1,0 @@
-data modify storage do storage.ba_1080 set value {path:"ba:1080",frames:4642,music:"ba:bad_apple",loop:0b}
-data modify storage do storage.ba_480 set value {path:"ba:480",frames:4642,music:"ba:bad_apple",loop:0b}
