@@ -13,7 +13,7 @@ features:
     details: 2024.10.25
   - title: 下载
     details: v1.0
-    link: /杂项/dynamic_overlay.zip
+    link: /杂项/dynamic_overlay_.zip
   - title: 测试资源包下载（百度网盘）
     details: 用于播放bad apple
     link: https://pan.baidu.com/s/1wII3EzTz-IBr6g_3-Px-yA?pwd=1234
