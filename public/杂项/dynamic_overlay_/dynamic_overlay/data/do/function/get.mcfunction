@@ -1,0 +1,1 @@
+give @s minecraft:firework_star[minecraft:equippable={slot:"head",equip_sound:{sound_id:"do:empty"}},minecraft:custom_data={dynamic_overlay:"ba_480"},item_name='{"text": "放映机"}',item_model="do:tv",rarity="uncommon",lore=['{"text": "Bad Apple!!","color": "gray","italic": false}']]
