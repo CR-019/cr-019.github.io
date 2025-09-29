@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components": {
+        "equippable":{
+            "slot": "offhand",
+            "camera_overlay": "pet:overlay",
+            "equip_sound": {
+                "sound_id": "empty"
+            }
+        }
+    }
+}

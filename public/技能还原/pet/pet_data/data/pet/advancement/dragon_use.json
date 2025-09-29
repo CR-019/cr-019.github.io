@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": ["firework_star"],
+                    "predicates": {
+                        "custom_data":{"pet_dragon":1}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pet:dragon/check"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "hand_animation_on_swap":false,
+    "model":{
+        "type":"condition",
+        "on_true":{
+            "type":"composite",
+            "models":[
+                {
+                    "type":"model",
+                    "model":"pet:item/dragon/long_1"
+                },
+                {
+                    "type":"model",
+                    "model":"pet:item/dragon/long_2"
+                }
+            ]
+        },
+        "on_false":{
+            "type":"condition",
+            "property":"carried",
+            "on_true":{
+                "type":"model",
+                "model":"pet:item/dragon/surprise"
+            },
+            "on_false":{
+                "type":"select",
+                "property":"display_context",
+                "cases":[
+                    {
+                        "when":[
+                            "thirdperson_lefthand",
+                            "firstperson_lefthand",
+                            "thirdperson_righthand",
+                            "firstperson_righthand",
+                            "gui",
+                            "fixed"
+                        ],
+                        "model":{
+                            "type":"model",
+                            "model":"pet:item/dragon/angry"
+                        }
+                    }
+                ],
+                "fallback":{
+                    "type":"model",
+                    "model":"pet:item/dragon/idle"
+                }
+            }
+        },
+        "property":"using_item"
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{\"text\":\"库胡勒阿乔\"}",
+                                "rarity": "uncommon",
+                                "lore": [
+                                    "{\"text\":\"伟大圣龙（自称）\",\"color\":\"gray\",\"italic\": false}"
+                                ],
+                                "custom_data": {
+                                    "pet_dragon_disable": 1,
+                                    "pet_dragon_id":1
+                                },
+                                "max_stack_size": 1,
+                                "item_model": "pet:dragon_"
+                                
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

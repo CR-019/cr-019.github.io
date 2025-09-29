@@ -1,0 +1,42 @@
+{
+    "model":{
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "pet:item/fox_middle"
+            },
+            "threshold": 0
+          },  
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "pet:item/fox_right"
+            },
+            "threshold": 15
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "pet:item/fox_middle"
+            },
+            "threshold": 165
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "pet:item/fox_left"
+            },
+            "threshold": 195
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "pet:item/fox_middle"
+        },
+        "property": "minecraft:compass",
+        "target": "lodestone",
+        "scale":360
+      }
+}

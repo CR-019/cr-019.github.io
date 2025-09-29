@@ -1,0 +1,1 @@
+give @s firework_star[item_model="pet:dragon",consumable={animation:"spear",consume_seconds:5,sound:{sound_id:"empty"},has_consume_particles:false},custom_data={pet_dragon:1b,pet_dragon_id:1b}]
