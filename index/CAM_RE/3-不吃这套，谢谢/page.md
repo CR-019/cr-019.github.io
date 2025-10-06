@@ -16,7 +16,7 @@ features:
     link: /CAM_RE/NOT_TODAY_shield.zip
   - title: 其他平台链接
     linkText: 红石中继站
-    link:https://www.mczwlt.net/resource/252lagdu
+    link: https://www.mczwlt.net/resource/252lagdu
 ---
 
 ## 视频

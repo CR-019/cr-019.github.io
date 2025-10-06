@@ -16,7 +16,7 @@ features:
     link: /CAM_RE/bone_arrow_v1.1.zip
   - title: 其他平台链接
     linkText: 红石中继站
-    link:https://www.mczwlt.net/resource/3293nhcs
+    link: https://www.mczwlt.net/resource/3293nhcs
 ---
 
 ## 视频

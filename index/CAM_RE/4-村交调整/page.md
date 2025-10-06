@@ -16,7 +16,7 @@ features:
     link: /CAM_RE/trade_re_rebalance.zip
   - title: 其他平台链接
     linkText: 红石中继站
-    link:https://www.mczwlt.net/resource/s25ym3ho
+    link: https://www.mczwlt.net/resource/s25ym3ho
 ---
 
 ## 视频

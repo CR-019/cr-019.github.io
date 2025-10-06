@@ -16,7 +16,7 @@ features:
     link: /CAM_RE/palace_lantern_v1.4.zip
   - title: 其他平台链接
     linkText: 红石中继站
-    link:https://www.mczwlt.net/resource/x39gw9a5
+    link: https://www.mczwlt.net/resource/x39gw9a5
 ---
 
 ## 视频

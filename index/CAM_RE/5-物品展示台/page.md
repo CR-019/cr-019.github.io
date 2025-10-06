@@ -16,7 +16,7 @@ features:
     link: /CAM_RE/item_displayer_re_v1.0.zip
   - title: 其他平台链接
     linkText: 红石中继站
-    link:https://www.mczwlt.net/resource/e2zuj582
+    link: https://www.mczwlt.net/resource/e2zuj582
 ---
 
 ## 视频
