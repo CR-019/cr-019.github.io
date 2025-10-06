@@ -15,7 +15,7 @@ features:
     link: https://space.bilibili.com/3546836707051710
   - title: 乡野与魔法
     details: 大型生存向数据包，高版本重制中……
-    link: https://www.mcmod.cn/class/4368.html
+    link: /index/CAM_re
   - title: 作品收集和下载
     details: 杂项数据包浏览和下载
     link: 作品收集
