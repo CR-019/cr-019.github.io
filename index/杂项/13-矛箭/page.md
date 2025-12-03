@@ -14,11 +14,32 @@ features:
   - title: 下载
     details: v1.1
     link: /杂项/spear_arrow_v1.1.zip
+  - title: 下载
+    details: 疑似被squash233_修改过……
+    link: /杂项/spear_arrow_v1.1_funking_hacked.zip
 ---
 
 ## 视频
 
 <iframe src="//player.bilibili.com/player.html?bvid=BV1o6SNBPEJV&autoplay=0" 
+        frameborder="0" 
+        width="100%" 
+        height="500" 
+        allowfullscreen="true">
+</iframe>
+
+---
+
+<iframe src="//player.bilibili.com/player.html?bvid=BV1EeSxBfEFS&autoplay=0" 
+        frameborder="0" 
+        width="100%" 
+        height="500" 
+        allowfullscreen="true">
+</iframe>
+
+---
+
+<iframe src="//player.bilibili.com/player.html?bvid=BV1Z4SYB2ES7&autoplay=0" 
         frameborder="0" 
         width="100%" 
         height="500" 
