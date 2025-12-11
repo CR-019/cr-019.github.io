@@ -12,8 +12,8 @@ features:
   - title: 最后更新
     details: 2025.12.02
   - title: 下载
-    details: v1.1
-    link: /杂项/spear_arrow_v1.1.zip
+    details: v1.2
+    link: /杂项/spear_arrow_v1.2.zip
   - title: 下载
     details: 疑似被squash233_修改过……
     link: /杂项/spear_arrow_v1.1_funking_hacked.zip
@@ -62,3 +62,8 @@ features:
 空中：快速落地并在落点生成枪阵。
 
 伤害与矛箭产生的枪阵一致，为近战伤害 x 等级。
+
+
+现在焦骸有20%概率生成时副手持有矛，可发射矛。  
+尸壳骆驼骑士的焦骸100%持有矛。  
+若持有矛，则有20%的概率带有枪阵附魔。
