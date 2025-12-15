@@ -12,7 +12,7 @@ features:
   - title: 最后更新
     details: 2025.12.15
   - title: 下载
-    details: v1.0
+    details: v1.1
     link: /杂项/crossbow_1.1.zip
 ---
 
