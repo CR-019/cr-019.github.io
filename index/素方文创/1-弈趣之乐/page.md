@@ -20,12 +20,7 @@ features:
 
 ## 视频
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1rm421g7MG&autoplay=0" 
-        frameborder="0" 
-        width="100%" 
-        height="500" 
-        allowfullscreen="true">
-</iframe>
+
 
 ## 简介
 
