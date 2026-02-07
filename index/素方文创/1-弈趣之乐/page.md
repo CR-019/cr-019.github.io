@@ -15,7 +15,7 @@ features:
     details: 2026.2.7
   - title: 下载
     details: v1.0
-    link: /素方文创/弈趣之乐/pixel_creation_chess_1.0.zip.zip
+    link: /素方文创/弈趣之乐/pixel_creation_chess_1.0.zip
 ---
 
 ## 视频
