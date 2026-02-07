@@ -1,0 +1,2 @@
+execute if score $x pc_xiangqi_position matches -1 run return 0
+$data modify entity @n[type=item_display,tag=pc_xiangqi_sync_display] item.components."minecraft:custom_model_data".strings[$(position)] set value "$(piece)"

@@ -1,0 +1,13 @@
+{
+    "env": {
+       "gameVersion": "1.21.8",
+       "useFilePolling": true,
+       "dependencies": [
+         "file:///D:/.minecraft/saves/dtp_lab27/datapacks/dc_v2.0.0_pre1/",
+         "@vanilla-datapack",
+			"@vanilla-resourcepack",
+			"@vanilla-mcdoc"
+       ]
+    }
+ }
+

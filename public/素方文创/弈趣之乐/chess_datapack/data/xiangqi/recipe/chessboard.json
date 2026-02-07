@@ -1,0 +1,144 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "* *",
+        "%%%"
+    ],
+    "key": {
+        "*": "end_stone_bricks",
+        "%": "#planks"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "components": {
+            "item_model": "xiangqi:chessboard",
+            "custom_model_data": {
+                "strings": [
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty",
+                    "empty"
+                ]
+            },
+            "item_name": "中国象棋",
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "pc_xiangqi"
+                }
+            },
+            "max_stack_size": 1,
+            "max_damage": 1,
+            "damage": 0,
+            "weapon": {
+                "item_damage_per_attack": 1
+            },
+            "attribute_modifiers": [
+                {
+                    "id": "minecraft:base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 19,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "base_attack_spped",
+                    "amount": -2.4,
+                    "type": "attack_speed",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    }
+}

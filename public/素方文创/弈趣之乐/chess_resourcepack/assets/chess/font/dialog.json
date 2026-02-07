@@ -1,0 +1,203 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "chess:font/chessboard_black.png",
+            "chars": [
+                "\u0001"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/chessboard_white.png",
+            "chars": [
+                "\u0002"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/selected.png",
+            "chars": [
+                "\u0003"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/pieces.png",
+            "chars": [
+                "\u0006"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "space",
+            "advances": {
+                "\u0004":-1,
+                "\u0005":1,
+                "\u0100":-72,
+                "\u0101":-63,
+                "\u0102":-54,
+                "\u0103":-45,
+                "\u0104":-36,
+                "\u0105":-27,
+                "\u0106":-18,
+                "\u0107":-9,
+                "\u0200":63,
+                "\u0201":54,
+                "\u0202":45,
+                "\u0203":36,
+                "\u0204":27,
+                "\u0205":18,
+                "\u0206":9,
+                "\u0207":0,
+                "\u0300":-144,
+                "\u0301":-135,
+                "\u0302":-126,
+                "\u0303":-117,
+                "\u0304":-108,
+                "\u0305":-99,
+                "\u0306":-90,
+                "\u0307":-81,
+                "\u0308":-72,
+                "\u0309":-63,
+                "\u0310":-54,
+                "\u0311":-45,
+                "\u0312":-36,
+                "\u0313":-27,
+                "\u0314":-18,
+                "\u0315":-9,
+                "\u0400":135,
+                "\u0401":126,
+                "\u0402":117,
+                "\u0403":108,
+                "\u0404":99,
+                "\u0405":90,
+                "\u0406":81,
+                "\u0407":72,
+                "\u0408":63,
+                "\u0409":54,
+                "\u0410":45,
+                "\u0411":36,
+                "\u0412":27,
+                "\u0413":18,
+                "\u0414":9,
+                "\u0415":0
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/king_white.png",
+            "chars": [
+                "\u1001"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/queen_white.png",
+            "chars": [
+                "\u1002"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/bishop_white.png",
+            "chars": [
+                "\u1003"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/knight_white.png",
+            "chars": [
+                "\u1004"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/rook_white.png",
+            "chars": [
+                "\u1005"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/pawn_white.png",
+            "chars": [
+                "\u1006"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/king_black.png",
+            "chars": [
+                "\u2001"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/queen_black.png",
+            "chars": [
+                "\u2002"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/bishop_black.png",
+            "chars": [
+                "\u2003"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/knight_black.png",
+            "chars": [
+                "\u2004"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/rook_black.png",
+            "chars": [
+                "\u2005"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "chess:font/pawn_black.png",
+            "chars": [
+                "\u2006"
+            ],
+            "ascent": 9,
+            "height": 9
+        }
+    ]
+}

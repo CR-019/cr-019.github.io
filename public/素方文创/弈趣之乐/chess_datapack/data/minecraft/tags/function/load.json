@@ -1,0 +1,6 @@
+{
+    "values":[
+        "chess:load",
+        "xiangqi:load"
+    ]
+}
