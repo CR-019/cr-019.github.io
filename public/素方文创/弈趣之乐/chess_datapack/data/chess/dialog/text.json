@@ -1,0 +1,26 @@
+{
+    "type": "confirmation",
+    "after_action": "none",
+    "can_close_with_escape": true,
+    "title": "确认操作",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "将要进行清空棋盘操作，是否确认？"
+        }
+    ],
+    "yes": {
+        "label": "是",
+        "action": {
+            "type": "run_command",
+            "command": "trigger pc_chess_trigger set -5"
+        }
+    },
+    "no": {
+        "label": "否",
+        "action": {
+            "type": "run_command",
+            "command": "trigger pc_chess_trigger set -3"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+function xiangqi:dialog/chessboard/main

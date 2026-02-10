@@ -1,0 +1,1 @@
+function chess:dialog/chessboard/main

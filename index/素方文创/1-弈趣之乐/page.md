@@ -14,8 +14,8 @@ features:
   - title: 最后更新
     details: 2026.2.7
   - title: 下载
-    details: v1.0
-    link: /素方文创/弈趣之乐/pixel_creation_chess_1.0.zip
+    details: v1.1
+    link: /素方文创/弈趣之乐/pixel_creation_chess_1.1.zip
 ---
 
 ## 视频
@@ -38,3 +38,4 @@ features:
 
 获取木板以解锁配方。
 
+v1.1更新：恢复开局和清空棋盘不再需要管理员权限
