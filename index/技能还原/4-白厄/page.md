@@ -6,12 +6,15 @@ hero:
   tagline: 绝对不是没想过起啥名字
 features:
   - title: 支持版本
-    details: 1.21.4
+    details: 1.21.4,26.1
   - title: 形式
     details: 数据包+资源包
   - title: 最后更新
-    details: 2025.10.1
-  - title: 下载
+    details: 2026.4.5
+    - title: 下载（26.1）
+    details: v2.0
+    link: /技能还原/phainon_v2.0.zip
+  - title: 下载（1.21.4）
     details: v1.4
     link: /技能还原/phainon_v1.4.zip
 ---
