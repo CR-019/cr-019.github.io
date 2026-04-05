@@ -11,7 +11,7 @@ features:
     details: 数据包+资源包
   - title: 最后更新
     details: 2026.4.5
-    - title: 下载（26.1）
+  - title: 下载（26.1）
     details: v2.0
     link: /技能还原/phainon_v2.0.zip
   - title: 下载（1.21.4）
