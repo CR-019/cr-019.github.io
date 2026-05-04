@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"pack_format": 63,
+		"supported_formats":[63,64],
+		"min_format":63,
+		"max_format":1000,
+		"description": "素方文创：弈趣之乐"
+	}
+}

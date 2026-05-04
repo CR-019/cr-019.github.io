@@ -1,0 +1,232 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/chessboard/chessboard_cut.png",
+            "chars": [
+                "\u0001\u0002\u0003\u0004\u0005\u0006\u0007\u0008\u0009",
+                "\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019",
+                "\u0021\u0022\u0023\u0024\u0025\u0026\u0027\u0028\u0029",
+                "\u0031\u0032\u0033\u0034\u0035\u0036\u0037\u0038\u0039",
+                "\u0041\u0042\u0043\u0044\u0045\u0046\u0047\u0048\u0049",
+                "\u0051\u0052\u0053\u0054\u0055\u0056\u0057\u0058\u0059",
+                "\u0061\u0062\u0063\u0064\u0065\u0066\u0067\u0068\u0069",
+                "\u0071\u0072\u0073\u0074\u0075\u0076\u0077\u0078\u0079",
+                "\u0081\u0082\u0083\u0084\u0085\u0086\u0087\u0088\u0089",
+                "\u0091\u0092\u0093\u0094\u0095\u0096\u0097\u0098\u0099"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/chessboard/xiangqi_chessboard.png",
+            "chars": [
+                "\u0010"
+            ],
+            "ascent": 4,
+            "height": 99
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/selected.png",
+            "chars": [
+                "\u0100"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces.png",
+            "chars": [
+                "\u1003"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "space",
+            "advances": {
+                "\u1001":-1,
+                "\u1002":1,
+                "\u1100":-81,
+                "\u1101":-72,
+                "\u1102":-63,
+                "\u1103":-54,
+                "\u1104":-45,
+                "\u1105":-36,
+                "\u1106":-27,
+                "\u1107":-18,
+                "\u1108":-9,
+                "\u1200":71,
+                "\u1201":62,
+                "\u1202":53,
+                "\u1203":44,
+                "\u1204":35,
+                "\u1205":26,
+                "\u1206":17,
+                "\u1207":8,
+                "\u1208":-1,
+                "\u1300":-160,
+                "\u1301":-150,
+                "\u1302":-140,
+                "\u1303":-130,
+                "\u1304":-120,
+                "\u1305":-110,
+                "\u1306":-100,
+                "\u1307":-90,
+                "\u1308":-80,
+                "\u1309":-70,
+                "\u1310":-60,
+                "\u1311":-50,
+                "\u1312":-40,
+                "\u1313":-30,
+                "\u1314":-20,
+                "\u1315":-10,
+                "\u1400":150,
+                "\u1401":140,
+                "\u1402":130,
+                "\u1403":120,
+                "\u1404":110,
+                "\u1405":100,
+                "\u1406":90,
+                "\u1407":80,
+                "\u1408":70,
+                "\u1409":60,
+                "\u1410":50,
+                "\u1411":40,
+                "\u1412":30,
+                "\u1413":20,
+                "\u1414":10,
+                "\u1415":0
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/king_red.png",
+            "chars": [
+                "\u0101"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/guard_red.png",
+            "chars": [
+                "\u0102"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/bishop_red.png",
+            "chars": [
+                "\u0103"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/knight_red.png",
+            "chars": [
+                "\u0104"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/chariot_red.png",
+            "chars": [
+                "\u0105"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/cannon_red.png",
+            "chars": [
+                "\u0106"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/pawn_red.png",
+            "chars": [
+                "\u0107"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/king_black.png",
+            "chars": [
+                "\u0201"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/guard_black.png",
+            "chars": [
+                "\u0202"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/bishop_black.png",
+            "chars": [
+                "\u0203"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/knight_black.png",
+            "chars": [
+                "\u0204"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/chariot_black.png",
+            "chars": [
+                "\u0205"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/cannon_black.png",
+            "chars": [
+                "\u0206"
+            ],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "xiangqi:font/pieces/pawn_black.png",
+            "chars": [
+                "\u0207"
+            ],
+            "ascent": 9,
+            "height": 9
+        }
+    ]
+}

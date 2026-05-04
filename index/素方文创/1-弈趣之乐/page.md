@@ -16,6 +16,9 @@ features:
   - title: 下载
     details: v1.1
     link: /素方文创/弈趣之乐/pixel_creation_chess_1.1.zip
+  - title: 下载
+    details: v1.1，使用sao_you的替换中国象棋资源包
+    link: /素方文创/弈趣之乐/pixel_creation_chess_1.1_alternative.zip
 ---
 
 ## 视频
