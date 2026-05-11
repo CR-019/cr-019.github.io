@@ -10,7 +10,7 @@ features:
   - title: 形式
     details: 数据包+py脚本
   - title: 最后更新
-    details: 2026.5.10
+    details: 2026.4.25
   - title: 下载
     details: github
     link: https://github.com/CR-019/dc
@@ -33,7 +33,7 @@ dc采用索引的方式读取模型数据，在添加模型之前，需要注册
 data modify storage dc:index input.<name> set value <data>
 data modify storage dc:index keylist append value "<name>"
 ```
-其中<name>为需要注册的索引名称，<data>为索引数据，为一复合标签，格式如下：
+其中\<name\>为需要注册的索引名称，\<data\>为索引数据，为一复合标签，格式如下：
 > 注：键前方的括号为键值类型，在compound后面带有冒号的为结构模板，只在第一次出现时解析其结构，后面则省略；
 ```snbt
 (compound) :{  //索引数据
@@ -240,7 +240,7 @@ data modify storage dc:index keylist append value "<name>"
 
 预制事件是一类特殊事件，为带有固定的参数的特定普通事件。因此不需要额外指定arg（指定了也没有效果）。用于简化操作。
 
-在使用中，在events里填写"pre/<预制事件名>"即可。
+在使用中，在events里填写"pre/\<预制事件名\>"即可。
 
 目前已有的预制事件：
 - move_r_1px：水平移动1像素（推）
@@ -330,6 +330,7 @@ data modify storage dc:index keylist append value "<name>"
 ```mcfunction
 data modify storage dc:template <name> set value <data>
 ```
+
 name为模板名，data为模板数据，为索引的一部分（不完整）数据，格式参照索引数据格式,不包含template选项(即不支持嵌套模板调用)，且所有键均为可选。
 
 完成模板注册后，在dc命名空间下建立一个一个名为template的函数标签(dc/tags/functions/template.json)，把模板函数加入。
@@ -413,9 +414,9 @@ default:
 在dc_options计分板内有一些设置选项。
 
 已有设置：
-$auto_install：设为1，在reload时自动加载模型索引数据;<br>
-$silent_update：设为1，在更新模型时不再向玩家输出信息;
-$silent_register：设为1，在注册新模型时不再向玩家输出信息;
+$auto_install：设为1，在reload时自动加载模型索引数据;  
+$silent_update：设为1，在更新模型时不再向玩家输出信息;  
+$silent_register：设为1，在注册新模型时不再向玩家输出信息;  
 
 可视化设置界面：输入```/function dc:menu/main```,呼出设置页面，可以可视化调整上述选项。
 
